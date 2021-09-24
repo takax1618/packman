@@ -1,0 +1,35 @@
+{
+  "name": "Packman",
+  "version": "0.3.2",
+  "description": "Create ecBeing release package.",
+  "main": "packman.js",
+  "scripts": {
+    "packman": "node packman.js",
+    "make": "node make.js"
+  },
+  "author": "shimbota",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dateformat": "~4.5.1",
+    "dotenv": "^10.0.0",
+    "enquirer": "^2.3.6",
+    "fast-xml-parser": "^3.20.0",
+    "figlet": "^1.5.2",
+    "glob": "^7.1.7",
+    "nedb-promises": "^5.0.1",
+    "npm-packlist": "^2.2.2",
+    "ora": "^5.4.1",
+    "svn-spawn": "^0.1.6",
+    "winston": "^3.3.3"
+  },
+  "files": [
+    "logger.js",
+    "make.js",
+    "model.js",
+    "packman.js",
+    "svn.js",
+    "view.js",
+    "CHANGELOG.md"
+  ]
+}
